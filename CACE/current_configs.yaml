@@ -1,0 +1,16 @@
+# ======================================= Learning configs ==================================
+n_epoch: 200
+batch_size: 64
+test_batch_size: 64
+lr: 0.0007
+loss_weights: 0.5
+clip_gradient: 0.5
+start_epoch: 0
+weight_decay: 5e-4
+
+  # ======================================= Print and snapshot configs ==================================
+snapshot_pref: ./Exps/Supv/exp
+print_freq: 10
+eval_freq: 1
+
+
