@@ -132,17 +132,17 @@ python main.py --batch-size 128 --dist-url 'tcp://localhost:10001' --multiproces
 
 ## Results on AVE dataset
 
-| AVCA | BECE | Efficient Encoder | Accuracy(%) |
-| :--: | :--: | :---------------: | :---------: |
-|  -   |  -   |         -         |    78.83    |
-|  ✓   |      |                   |    78.93    |
-|      |  ✓   |                   |    80.30    |
-|  ✓   |  ✓   |                   |    80.80    |
-|  ✓   |  ✓   |         ✓         |  **82.36**  |
+| &nbsp;&nbsp;AVCA&nbsp;&nbsp; | &nbsp;&nbsp;BECE&nbsp;&nbsp; | &nbsp;&nbsp;Efficient Encoder&nbsp;&nbsp; | &nbsp;&nbsp;Accuracy(%)&nbsp;&nbsp; |
+|:----------------------------:|:----------------------------:|:----------------------------------------:|:----------------------------------:|
+| &nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;78.83&nbsp;&nbsp; |
+| &nbsp;&nbsp;&nbsp;&nbsp;✓&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;78.93&nbsp;&nbsp; |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;✓&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;80.30&nbsp;&nbsp; |
+| &nbsp;&nbsp;&nbsp;&nbsp;✓&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;✓&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;80.80&nbsp;&nbsp; |
+| &nbsp;&nbsp;&nbsp;&nbsp;✓&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;✓&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;✓&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;**82.36**&nbsp;&nbsp; |
 
 
 
-<img src="./att_vis.jpg" alt="att" style="zoom: 67%;" />
+<img src="./att_vis.jpg" width="100%" height="80%">
 
 <p align="center">   <strong>Figure 2: Visualization of different attention guidance methods.</strong> </p>
 
