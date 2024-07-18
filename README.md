@@ -142,7 +142,7 @@ python main.py --batch-size 128 --dist-url 'tcp://localhost:10001' --multiproces
 
 
 
-<img src="D:\Mycode\临时不用的\CACE-Net\att_vis.jpg" alt="att" style="zoom: 67%;" />
+<img src="./att_vis.jpg" alt="att" style="zoom: 67%;" />
 
 <p align="center">   <strong>Figure 2: Visualization of different attention guidance methods.</strong> </p>
 
