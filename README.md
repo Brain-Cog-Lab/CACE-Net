@@ -8,7 +8,7 @@ Here is the PyTorch implementation of our paper.
 
 **Accepted by: MM '24: Proceedings of the 32st ACM International Conference on Multimedia**
 
-\[[arxiv]()\] \[[paper]()\] \[[code](https://github.com/Brain-Cog-Lab/CACE-Net)\]
+\[[arxiv](https://arxiv.org/abs/2408.01952)\] \[[paper](https://dl.acm.org/doi/10.1145/3664647.3681503)\] \[[code](https://github.com/Brain-Cog-Lab/CACE-Net)\]
 
 ![method](./method.jpg)
 
@@ -151,7 +151,22 @@ python main.py --batch-size 128 --dist-url 'tcp://localhost:10001' --multiproces
 If our paper is useful for your research, please consider citing it:
 
 ```latex
-arxiv bibtex here
+@inproceedings{10.1145/3664647.3681503,
+author = {He, Xiang and Liu, Xiangxi and Li, Yang and Zhao, Dongcheng and Shen, Guobin and Kong, Qingqun and Yang, Xin and Zeng, Yi},
+title = {CACE-Net: Co-guidance Attention and Contrastive Enhancement for Effective Audio-Visual Event Localization},
+year = {2024},
+isbn = {9798400706868},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3664647.3681503},
+doi = {10.1145/3664647.3681503},
+booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+pages = {985–993},
+numpages = {9},
+keywords = {audio-visual co-guidance attention, audio-visual event localization, contrastive enhancement},
+location = {Melbourne VIC, Australia},
+series = {MM '24}
+}
 ```
 
 
